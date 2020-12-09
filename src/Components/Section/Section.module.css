@@ -1,0 +1,9 @@
+.container:first-child {
+  margin-bottom: 15px;
+  border-bottom: 1px solid grey;
+}
+
+.title {
+  margin-bottom: 10px;
+  font-size: 28px;
+}

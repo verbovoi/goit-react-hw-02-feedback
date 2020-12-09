@@ -1,11 +1,11 @@
 import React from 'react';
-// import s from "./Statistics.module.css";
+import s from './Statistics.module.css';
 // import PropTypes from "prop-types";
 
 function Statistics({ good, neutral, bad, total, positivePercentage }) {
   return (
     <div className="container">
-      <ul className="list">
+      <ul className={s.border}>
         <li className="item">Good: {good}</li>
         <li className="item">Neutral: {neutral}</li>
         <li className="item">Bad: {bad}</li>
